@@ -4,10 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Ruta Claude - De novato a leyenda. Curso interactivo para dominar Claude." />
+    <meta name="theme-color" content="#0B0F1A" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" href="./icon-192.png" />
+    <link rel="apple-touch-icon" href="./icon-192.png" />
     <title>Ruta Claude</title>
-    <script type="module" crossorigin src="./assets/index-Bv0ppROV.js"></script>
+    <script type="module" crossorigin src="./assets/index-BT2OsQYp.js"></script>
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("./sw.js").catch(function () {});
+        });
+      }
+    </script>
   </body>
 </html>

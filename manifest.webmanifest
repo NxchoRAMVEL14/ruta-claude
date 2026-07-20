@@ -1,0 +1,17 @@
+{
+  "name": "Ruta Claude — De novato a leyenda",
+  "short_name": "Ruta Claude",
+  "description": "Curso interactivo para dominar Claude: 10 niveles, Dojo IA y laboratorio de retos.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0F1A",
+  "theme_color": "#0B0F1A",
+  "lang": "es",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
